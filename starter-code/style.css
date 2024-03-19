@@ -1,0 +1,411 @@
+body {
+  background-color: white;
+  font-family: "Space Mono", monospace;
+  margin: auto;
+  padding: 0;
+}
+header {
+  display: flex;
+  font-weight: 700;
+  justify-content: space-around;
+}
+.logo {
+  margin-left: 80px;
+  margin-top: 30px;
+}
+ul {
+  display: flex;
+  gap: 80px;
+  padding-right: 450px;
+  margin-top: 35px;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+  color: #939caa;
+}
+li:hover {
+  color: #fcb72b;
+  cursor: pointer;
+}
+button {
+  background-color: #fcb72b;
+  color: white;
+  padding-inline: 50px;
+  border: none;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: "Space Mono", monospace;
+  margin-right: 100px;
+  margin-top: 25px;
+}
+button:hover {
+  cursor: pointer;
+  border: 2px solid #fcb72b;
+  background-color: white;
+  color: #fcb72b;
+}
+.first {
+  background-image: url("/starter-code/assets/images/home-hero-desktop.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.simple {
+  position: absolute;
+  color: white;
+  font-size: 56px;
+  margin-left: 240px;
+  bottom: 395px;
+  letter-spacing: -2.5px;
+  line-height: 1.3;
+}
+
+.unlock {
+  position: absolute;
+  color: white;
+  bottom: 300px;
+  left: 280px;
+  font-size: medium;
+}
+.svg1 {
+  position: absolute;
+  bottom: 350px;
+  left: 0px;
+}
+.svg2 {
+  position: absolute;
+  bottom: 225px;
+  right: 215px;
+}
+.sharing {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.get {
+  position: absolute;
+  padding-block: 15px;
+  bottom: 185px;
+  left: 277px;
+}
+.oval {
+  position: absolute;
+  bottom: 225px;
+  right: 0px;
+}
+
+.second {
+  position: relative;
+  padding-left: 0px;
+  margin-top: 40px;
+}
+.line-line {
+  position: absolute;
+  margin-top: 150px;
+  left: 175px;
+}
+.app {
+  padding-inline: 200px;
+  display: flex;
+  padding-block: 110px;
+  gap: 80px;
+  position: relative;
+}
+h2 {
+  color: #495567;
+}
+.p-app {
+  color: #939caa;
+  font-size: 12px;
+}
+
+.l-app {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.easy {
+  font-size: 56px;
+  letter-spacing: -2.5px;
+  line-height: 1.3;
+  color: #495567;
+  max-width: 550px;
+}
+.ssp {
+  color: #939caa;
+  max-width: 540px;
+}
+.third-section {
+  padding-block: 100px;
+}
+.b-more {
+  padding-block: 15px;
+}
+.third-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.class-section {
+  padding-left: 180px;
+}
+.another-class-section {
+  padding-right: 180px;
+}
+.sign {
+  font-size: 56px;
+  letter-spacing: -2.5px;
+  line-height: 1.3;
+  color: white;
+  position: absolute;
+  left: 160px;
+}
+.g-30px {
+  position: absolute;
+  right: 210px;
+}
+.last-section {
+  position: relative;
+  height: 40vh;
+  background-color: #495567;
+  display: flex;
+  align-items: center;
+}
+
+.third-mask {
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+}
+.second-mask {
+  position: absolute;
+  bottom: -2px;
+  right: 220px;
+}
+.first-mask {
+  position: absolute;
+  bottom: -2px;
+  right: 620px;
+}
+footer {
+  background-color: #212224;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  padding-inline: 50px;
+}
+.footer-scoot {
+  font-family: "Space Mono", monospace;
+  color: white;
+}
+.footer-svg1 {
+  position: absolute;
+  right: 345px;
+  bottom: 30px;
+}
+.footer-svg1:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.footer-svg2 {
+  position: absolute;
+  right: 285px;
+  bottom: 30px;
+}
+.footer-svg2:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.footer-svg3 {
+  position: absolute;
+  right: 225px;
+  bottom: 30px;
+}
+.footer-svg3:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+/* *********************************************** */
+/*********************ABOUT PAGE******************** */
+/* *********************************************************** */
+.about-body {
+  font-weight: 800;
+}
+.first-about {
+  background-image: url(/starter-code/assets/images/about-hero-desktop.jpg);
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+}
+.about-h1 {
+  color: white;
+  font-size: 56px;
+  position: absolute;
+  left: 145px;
+}
+.about-oval {
+  position: absolute;
+  right: 0;
+}
+.about-values {
+  margin-inline: 50px;
+  position: absolute;
+  left: 680px;
+  font-size: 56px;
+  color: #495567;
+}
+.about-text {
+  position: absolute;
+  left: 250px;
+  bottom: -30px;
+}
+.about-text2 {
+  position: absolute;
+  left: 680px;
+  bottom: -30px;
+}
+.about-text3 {
+  position: absolute;
+  bottom: -30px;
+  right: 280px;
+}
+.work-section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.faq {
+  font-size: 56px;
+  color: #495567;
+  margin-left: 100px;
+}
+.first-work {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.how {
+  font-size: 56px;
+  color: #495567;
+  margin-top: 10px;
+}
+.download-text {
+  font-weight: 800;
+  letter-spacing: -1;
+}
+.class-div {
+  display: flex;
+  gap: 100px;
+  color: #495567;
+}
+.hda {
+  background-color: #e8edf6;
+}
+.hda:hover {
+  cursor: pointer;
+  background-color: #fff4df;
+}
+.cif {
+  background-color: #e8edf6;
+}
+.cif:hover {
+  cursor: pointer;
+  background-color: #fff4df;
+}
+.dil {
+  background-color: #e8edf6;
+}
+.dil:hover {
+  cursor: pointer;
+  background-color: #fff4df;
+}
+.sammy {
+  padding: 15px 30px;
+}
+.work-div2 {
+  margin-top: 40px;
+}
+/* *********************************************** */
+/*********************LOCATION PAGE******************** */
+/* *********************************************************** */
+.location-first {
+  background-image: url(/starter-code/assets/images/careers-locations-hero-desktop.jpg);
+}
+.map {
+  background-image: url(/Group\ 7.png);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  margin: 100px;
+}
+.location-city {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: -100px;
+}
+.ycl {
+  font-size: 56px;
+  color: #495567;
+}
+.clicking {
+  color: #495567;
+  font-weight: 800;
+  letter-spacing: -1;
+}
+.mssg {
+  padding: 15px 50px;
+}
+/* * *********************************************** */
+/*********************CAREER PAGE******************** */
+/* /* *********************************************************** * */
+
+.general {
+  display: block;
+  flex-direction: column;
+  column-gap: 50px;
+  margin-block: 100px;
+  margin-inline: 250px;
+}
+.car-div {
+  position: relative;
+  align-items: center;
+  background-color: #e8edf6;
+  padding: 60px;
+  margin-top: 30px;
+}
+.div-c {
+  line-height: 5px;
+  position: absolute;
+  left: 35px;
+  top: 25px;
+}
+
+.h1-car {
+  color: #495567;
+}
+.appy {
+  position: absolute;
+  right: -50px;
+  top: 15px;
+}
